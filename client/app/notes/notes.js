@@ -33,9 +33,8 @@
     };
 
     $scope.save = function() {
-      console.log("noteTitle = " + $scope.note.title);
-      console.log("nototText = " + $scope.note.body_html);
-    }
+      NotesService.create($scope.note);
+    };
 
     $state.go('notes.form');
   }
