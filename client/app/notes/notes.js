@@ -24,7 +24,7 @@
   function NotesController($scope, $state, NotesService) {
     NotesService.fetch(function() {
       // console.log("Notes: " + NotesService.getNotes().length);
-      $scope.notes = NotesService.getNotes()
+      $scope.notes = NotesService.getNotes();
     });
 
     $state.go('notes.form');

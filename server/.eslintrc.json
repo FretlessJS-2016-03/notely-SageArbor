@@ -1,0 +1,39 @@
+{
+    "env": {
+        "node": true
+    },
+    "globals": {
+      "angular": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        /*"linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-console": [
+          "warn"
+        ],*/
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "dot-notation": [
+          "error"
+        ],
+        "eqeqeq": [
+          "error"
+        ],
+        "no-implicit-globals": [
+          "error"
+        ]
+    }
+}
