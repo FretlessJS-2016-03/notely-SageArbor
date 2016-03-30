@@ -1,0 +1,53 @@
+[33mcommit 7cfdf0796576a0e5f5a9743707b465572eac3aeb[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 20:02:03 2016 -0400
+
+    Pass json hard coded in app.js from server
+
+[33mcommit d35d2854d2fee3fe7420152088976fcd32962a09[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 17:45:07 2016 -0400
+
+    moved nav up a level and it worked
+
+[33mcommit d7b52abf0bb3eae3ade1679f0a6b4af5e3c4779c[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 17:43:58 2016 -0400
+
+    added notes.html with sidebar
+
+[33mcommit d87d9eeae2c04adc96b9900fbb745b0dd5e9b3d8[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 17:35:57 2016 -0400
+
+    Add title and text box
+
+[33mcommit f6879231030b49417cf1a5a4978d393f1c9c5ac4[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 17:24:40 2016 -0400
+
+    add notes from child with template
+
+[33mcommit 5dbc5da2c2e6b22cde9445bf767e7bd444c1ce0a[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 17:04:28 2016 -0400
+
+    notes.js added
+
+[33mcommit 4dc7427c4d44b5b7b24d51a8a6d17ec277cb9ddd[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 14:20:00 2016 -0400
+
+    Rename app variable and change inject syntax.
+
+[33mcommit 4f96c287d667d475419f47efc25acd72cd9e8d47[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Tue Mar 29 13:51:20 2016 -0400
+
+    Add layout and style.
+
+[33mcommit a848dfd1e8162d08d0bf0ad0f81b884e5c582595[m
+Author: Sage Arbor <sagearbor@gmail.com>
+Date:   Mon Mar 28 16:30:00 2016 -0400
+
+    Initial commit - Sage Arbor
