@@ -6,11 +6,11 @@ var notelyServerApp = express();
       res.header('Access-Control-Allow-Origin', '*');
       next();
     });
-    
+
 notelyServerApp.get('/', function(req, res) {
   res.json([
     {
-      title: 'Hardcoded note',
+      title: 'Edited Hardcoded note',
       body_html: 'Cool note. Aww, shucks.'
     },
     {
