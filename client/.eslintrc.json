@@ -25,7 +25,8 @@
             "always"
         ],
         "dot-notation": [
-          "error"
+          "warn"
+          /*"error"*/
         ],
         "eqeqeq": [
           "error"

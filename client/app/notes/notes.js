@@ -20,10 +20,10 @@
       });
   }
 
-  NotesController.$inject = ['$scope','$state', 'NotesService'];
+  NotesController.$inject = ['$scope', '$state', 'NotesService'];
   function NotesController($scope, $state, NotesService) {
-    NotesService.fetch(function() {
-      // console.log("Notes: " + NotesService.getNotes().length);
+
+    NotesService.fetch().success(function() {
       $scope.notes = NotesService.getNotes();
     });
 
