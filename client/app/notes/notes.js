@@ -26,11 +26,12 @@
 
     NotesService.fetch().then(function() {
       $scope.notes = NotesService.getNotes();
+      $scope.note = NotesService.findById($state.params.noteId); 
     });
 
     // $scope.note = {
     //   title: 'Static note',
-    //   body_html: 'Something something something.'
+    //   body_html:  something NotesSErvice.findById()
     // };
 
     $scope.save = function() {
@@ -40,6 +41,8 @@
     $scope.clearForm = function() {
       $scope.note = {};
     }
+
+
 
     $state.go('notes.form');
   }

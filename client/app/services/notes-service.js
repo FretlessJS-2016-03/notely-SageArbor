@@ -32,6 +32,17 @@
       }).then(function(response) {
         _this.notes.unshift(response.data.note);
       });
+    }
+
+    _this.findById = function(noteId) {
+      for (var i = 0; i < _this.notes.length; i++) {
+        // If the IDs match, return the current note
+        if (_this.notes[i]._id === noteId) {
+          return _this.notes[i];
+        }
+      }
+      return {};
     };
+
   }
 }());

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "A note-taking app written using AngularJS.",
-  "repository": "git@github.com:FretlessJS-2016-03/notely-SageArbor.git",
+  "repository": "https://github.com/FretlessJS-2016-03/notely-SageArbor.git",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
