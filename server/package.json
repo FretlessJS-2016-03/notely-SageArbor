@@ -2,7 +2,7 @@
   "name": "notelyserver",
   "version": "0.1.0",
   "description": "Node backend for a note-taking app.",
-  "repository": "https://github.com/FretlessJS-2016-03/notely-SageArbor.git",
+  "repository": "https://github.com/FretlessJS-2016-03/notely.git",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
