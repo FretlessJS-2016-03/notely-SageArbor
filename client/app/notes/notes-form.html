@@ -8,11 +8,16 @@
       placeholder="Title your note">
   </p>
   <p>
-    <textarea
+    <text-angular
       ng-model="note.body_html"
       name="body_html"
       placeholder="Just start typing..."
-      ></textarea>
+      ta-toolbar="[
+        ['bold', 'italics', 'underline'],
+        ['ul', 'ol', 'indent', 'outdent'],
+        ['html'],
+        ['insertLink']]"
+      ></text-angular>
   </p>
   <div class="form-actions">
     <input
@@ -20,7 +25,7 @@
       name="commit"
       value="Save"
       class="btn btn-default">
-    <a class="btn" ng-click="delete()">
+    <a ng-click="delete()" ng-show="note._id">
       <i class="fa fa-trash-o"></i>
     </a>
   </div>
