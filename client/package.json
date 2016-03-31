@@ -1,9 +1,9 @@
 {
-  "name": "Notely",
+  "name": "notely",
   "private": true,
   "version": "0.1.0",
-  "description": "A note-taking app written using AngularJS.",
-  "repository": "https://github.com/FretlessJS-2016-03/notely-SageArbor.git",
+  "description": "A note-taking app.",
+  "repository": "https://github.com/FretlessJS-2016-03/notely.git",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
@@ -11,7 +11,7 @@
     "http-server": "^0.6.1"
   },
   "scripts": {
-    "start": "http-server app -a 0.0.0.0 -p 8082 -c-1",
+    "start": "http-server app -a 0.0.0.0 -p 8080 -c-1",
     "prestart": "npm install",
     "postinstall": "bower install",
     "preupdate-webdriver": "npm install"

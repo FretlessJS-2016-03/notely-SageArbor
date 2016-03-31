@@ -3,7 +3,7 @@
     <input
       ng-model="note.title"
       type="text"
-      name"title"
+      name="title"
       id="note_title"
       placeholder="Title your note">
   </p>
@@ -12,13 +12,14 @@
       ng-model="note.body_html"
       name="body_html"
       placeholder="Just start typing..."
-    ></textarea>
+      ></textarea>
   </p>
   <div class="form-actions">
-    <input type="submit"
-    name="commit"
-    value="Save"
-    class="btn btn-default">
+    <input
+      type="submit"
+      name="commit"
+      value="Save"
+      class="btn btn-default">
+    <button type="button" class="btn btn-danger" ng-click="delete()">Delete</button>
   </div>
-
 </form>
