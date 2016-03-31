@@ -32,7 +32,27 @@
       }).then(function(response) {
         _this.notes.unshift(response.data.note);
       });
-    }
+    };
+
+    _this.update = function(note) {
+      return $http.put('http://localhost:3030/notes/' + note._id, {
+        note: {
+          title: note.title,
+          body_html: note.body_html
+        }
+      }).then(function(response) {
+        _this.replaceNote(response.data.note);  // making this work
+      });
+    };
+
+    _this.replaceNote = function(updatedNote) {
+      for (var i = 0; i < _this.notes.length; i++) {
+        if (_this.notes[i]._id === updatedNote._id) {
+          _this.notes[i] = updatedNote;
+          return;
+        }
+      }
+    };
 
     _this.findById = function(noteId) {
       for (var i = 0; i < _this.notes.length; i++) {
@@ -43,6 +63,5 @@
       }
       return {};
     };
-
   }
 }());
